@@ -1,0 +1,369 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.header-div{
+    background-image: url(../img/fundo.png);
+    height: 100vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.sep{
+    width: 70vw;
+    border: none;
+    border-top: 1px solid #077107;
+    margin: 20px auto;
+}
+
+.fundo{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    gap: 4vh;
+}
+span{
+    color: rgb(74, 180, 48);
+}
+.title{
+    font-size: 2em;
+    padding: 0 15vw;
+}
+
+.texto{
+    font-size: 1.4em;
+    padding: 0 15vw;
+}
+button{
+    height: 9vh;
+    width: 20vw;
+    background-color: rgb(74, 180, 48);
+    color: white;
+    border-radius: 15px;
+
+}
+.title1{
+    font-size: 2em;
+    padding: 0 15vw;
+    text-align: center;
+}
+.fundo-bnt{
+    display: flex;
+    justify-content: center;
+    padding-top: 15vh;
+    gap: 15vw;
+}
+
+li{
+    font-size: 1.8em;
+    padding: 0 15vw;
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    gap: 8vh;
+}
+
+.texto1{
+    font-size: 0.8em;
+    display: flex;
+    padding: 0 0 15vh;
+}
+.span1{
+    color: #077107;
+}
+
+.fundo2{
+    display: flex;
+    flex-direction: column;
+    gap: 3vh;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.input{
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    width: 30vw;
+    padding: 2vw;
+    height: 8vh;
+    box-shadow: 3px 3px 3px rgb(74, 180, 48);
+}
+textarea{
+    color: white;
+    border-radius: 20px;
+    background-color: black;
+    width: 30vw;
+    height: 15vh;
+    padding: 2vw;
+    box-shadow: 3px 3px 3px rgb(74, 180, 48);
+}
+.button{
+    height: 9vh;
+    width: 30vw;
+    background-color: rgb(74, 180, 48);
+    color: white;
+    border-radius: 15px;
+}
+/* roda pé */
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: white;
+    font-size: 0.8em;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+.contato {
+    background-color: rgb(74, 180, 48);
+    padding: 20px;
+}
+.copyright {
+    background-color: #077107;
+    padding-top: 10px;
+    font-size: 0.9em;
+    padding: 10px;
+}
+/* end */
+
+@media (max-width: 1320px) {
+    .header-div{
+        height: 90vh;
+    }
+    .fundo{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding-top: 19vh;
+        padding-bottom: 19vh;
+        gap: 4vh;
+    }
+    .title{
+        font-size: 2.2em;
+        padding: 0 15vw;
+    }
+    .title1{
+        font-size: 2.2em;
+        padding: 0 15vw;
+        text-align: center;
+    }
+    .texto{
+        font-size: 2.0em;
+        padding: 0 15vw;
+    }
+    .texto1{
+        font-size: 1em;
+        display: flex;
+        padding: 0 0 17vh;
+    }
+    button{
+        height: 9vh;
+        width: 20vw;
+        background-color: rgb(74, 180, 48);
+        color: white;
+        border-radius: 15px;
+        font-size: 1.3em;
+    }
+    .button{
+        height: 9vh;
+        width: 60vw;
+        background-color: rgb(74, 180, 48);
+        color: white;
+        border-radius: 15px;
+    }
+    .span1{
+        font-size: 1.1em;
+    }
+    .contato {
+        background-color: rgb(74, 180, 48);
+        padding: 20px;
+        font-size: 0.9em;
+    }
+    .input{
+        color: white;
+        border-radius: 20px;
+        background-color: black;
+        width: 60vw;
+        padding: 2vw;
+        font-size: 1.5em;
+        height: 8vh;
+        box-shadow: 3px 3px 3px rgb(74, 180, 48);
+    }
+    textarea{
+        color: white;
+        border-radius: 20px;
+        background-color: black;
+        width: 60vw;
+        font-size: 1.5em;
+        height: 15vh;
+        padding: 2vw;
+        box-shadow: 3px 3px 3px rgb(74, 180, 48);
+    }
+    .copyright {
+        background-color: #077107;
+        padding-top: 10px;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 880px) {
+    .header-div{
+        height: 80vh;
+    }
+    .fundo{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding-top: 17vh;
+        padding-bottom: 17vh;
+        gap: 4vh;
+    }
+    .title{
+        font-size: 2em;
+        padding: 0 15vw;
+    }
+    .title1{
+        font-size: 2em;
+        padding: 0 15vw;
+        text-align: center;
+    }
+    .texto{
+        font-size: 1.8em;
+        padding: 0 15vw;
+    }
+    .texto1{
+        font-size: 1.0em;
+        display: flex;
+        padding: 0 0 17vh;
+    }
+    button{
+        height: 9vh;
+        width: 20vw;
+        background-color: rgb(74, 180, 48);
+        color: white;
+        border-radius: 15px;
+        font-size: 1.6em;
+    }
+    .button{
+        height: 9vh;
+        width: 60vw;
+        background-color: rgb(74, 180, 48);
+        color: white;
+        border-radius: 15px;
+    }
+    .span1{
+        font-size: 1.2em;
+    }
+    .contato {
+        background-color: rgb(74, 180, 48);
+        padding: 20px;
+        font-size: 0.9em;
+    }
+    .input{
+        color: white;
+        border-radius: 20px;
+        background-color: black;
+        width: 60vw;
+        padding: 2vw;
+        height: 8vh;
+        box-shadow: 3px 3px 3px rgb(74, 180, 48);
+    }
+    textarea{
+        color: white;
+        border-radius: 20px;
+        background-color: black;
+        width: 60vw;
+        height: 15vh;
+        padding: 2vw;
+        box-shadow: 3px 3px 3px rgb(74, 180, 48);
+    }
+    .copyright {
+        background-color: #077107;
+        padding-top: 10px;
+        font-size: 1.2em;
+        padding: 10px;
+    }
+}
+
+
+@media (max-width: 440px) {
+    .header-div{
+        height: 50vh;
+    }
+    .fundo{
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+        padding-top: 14vh;
+        padding-bottom: 14vh;
+        gap: 2vh;
+    }
+    .title{
+        font-size: 1em;
+        padding: 0 15vw;
+    }
+    .title1{
+        font-size: 1em;
+        padding: 0 15vw;
+        text-align: center;
+    }
+    .texto{
+        font-size: 0.8em;
+        padding: 0 15vw;
+    }
+    .texto1{
+        font-size: 0.5em;
+        display: flex;
+        padding: 0 0 15vh;
+    }
+    button{
+        height: 9vh;
+        width: 20vw;
+        background-color: rgb(74, 180, 48);
+        color: white;
+        border-radius: 15px;
+        font-size: 0.6em;
+    }
+    .button{
+        height: 9vh;
+        width: 60vw;
+        background-color: rgb(74, 180, 48);
+        color: white;
+        border-radius: 15px;
+    }
+    .span1{
+        font-size: 0.5em;
+    }
+    .contato {
+        background-color: rgb(74, 180, 48);
+        padding: 20px;
+        font-size: 0.6em;
+    }
+    .input{
+        color: white;
+        border-radius: 20px;
+        background-color: black;
+        width: 60vw;
+        padding: 2vw;
+        height: 8vh;
+        box-shadow: 3px 3px 3px rgb(74, 180, 48);
+    }
+    textarea{
+        color: white;
+        border-radius: 20px;
+        background-color: black;
+        width: 60vw;
+        height: 15vh;
+        padding: 2vw;
+        box-shadow: 3px 3px 3px rgb(74, 180, 48);
+    }
+}
+
